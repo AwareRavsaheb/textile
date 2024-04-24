@@ -76,7 +76,7 @@ class RegisterFormState extends State<RegisterForm> {
       child: ListView(
         shrinkWrap: true,
         children: [
-          const Text('Name'),
+          const Text('Maharashtra Industry Department Approval No'),
           const SizedBox(height: 5),
           TextField(
             controller: nameController,
@@ -85,7 +85,7 @@ class RegisterFormState extends State<RegisterForm> {
             ),
           ),
           const SizedBox(height: 10),
-          const Text('Email'),
+          const Text('Registered Textile Company Name'),
           const SizedBox(height: 5),
           TextField(
             controller: emailController,
@@ -94,7 +94,7 @@ class RegisterFormState extends State<RegisterForm> {
             ),
           ),
           const SizedBox(height: 10),
-          const Text('Mobile'),
+          const Text('Select Textile Company Category'),
           const SizedBox(height: 5),
           TextField(
             controller: mobileController,
@@ -103,7 +103,7 @@ class RegisterFormState extends State<RegisterForm> {
             ),
           ),
           const SizedBox(height: 5),
-          const Text('Address'),
+          const Text('Applicants Full Name'),
           const SizedBox(height: 5),
           TextField(
             controller: addressController,
@@ -112,7 +112,7 @@ class RegisterFormState extends State<RegisterForm> {
             ),
           ),
           const SizedBox(height: 5),
-          const Text('Address'),
+          const Text('Applicants Designation in the Firm'),
           const SizedBox(height: 5),
           TextField(
             controller: addressController,
@@ -121,7 +121,7 @@ class RegisterFormState extends State<RegisterForm> {
             ),
           ),
           const SizedBox(height: 5),
-          const Text('Address'),
+          const Text('Entity PAN Number'),
           const SizedBox(height: 5),
           TextField(
             controller: addressController,
@@ -130,7 +130,7 @@ class RegisterFormState extends State<RegisterForm> {
             ),
           ),
           const SizedBox(height: 5),
-          const Text('Address'),
+          const Text('Entity GST Number'),
           const SizedBox(height: 5),
           TextField(
             controller: addressController,
@@ -139,7 +139,43 @@ class RegisterFormState extends State<RegisterForm> {
             ),
           ),
           const SizedBox(height: 5),
-          const Text('Address'),
+          const Text('Registered Address of Company'),
+          const SizedBox(height: 5),
+          TextField(
+            controller: addressController,
+            decoration: const InputDecoration(
+              border: OutlineInputBorder(),
+            ),
+          ),
+           const SizedBox(height: 5),
+          const Text('Mobile Number'),
+          const SizedBox(height: 5),
+          TextField(
+            controller: addressController,
+            decoration: const InputDecoration(
+              border: OutlineInputBorder(),
+            ),
+          ),
+           const SizedBox(height: 5),
+          const Text('Applicant Email ID'),
+          const SizedBox(height: 5),
+          TextField(
+            controller: addressController,
+            decoration: const InputDecoration(
+              border: OutlineInputBorder(),
+            ),
+          ),
+           const SizedBox(height: 5),
+          const Text('Password'),
+          const SizedBox(height: 5),
+          TextField(
+            controller: addressController,
+            decoration: const InputDecoration(
+              border: OutlineInputBorder(),
+            ),
+          ),
+           const SizedBox(height: 5),
+          const Text('Confirm Password'),
           const SizedBox(height: 5),
           TextField(
             controller: addressController,
